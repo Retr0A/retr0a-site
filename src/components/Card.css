@@ -1,7 +1,6 @@
 .card {
     position: relative;
     width: 200px;
-    height: 280px;
 
     background-color: gray;
     border-radius: 4px;
@@ -14,7 +13,7 @@
 }
 
 .card button {
-    position: absolute;
+    position: relative;
     bottom: 5px;
     left: 5px;
     right: 5px;

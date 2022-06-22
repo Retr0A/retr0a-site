@@ -40,6 +40,11 @@ h2 {
     background-position: center;
 }
 
+.products-page .products-cards {
+    display: flex;
+    flex-direction: row;
+}
+
 .backgroundVideo {
     position: fixed;
     right: 0;
