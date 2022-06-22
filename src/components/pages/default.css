@@ -1,0 +1,54 @@
+* {
+    color: white;
+}
+
+h1 {
+    font-size: 120px;
+
+    padding: 30px 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact-page img {
+    width: 30px;
+}
+
+.home-page, .about-page, .contact-page, .products-page {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.home-page {
+    background-image: url(../../../public/background.png);
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-page .contact-page .products-page {
+    margin: 10px;
+    
+    background-color: rgb(75, 75, 75);
+    background-position: center;
+}
+
+.backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.copyright-text {
+    position: inherit;
+    bottom: 0;
+}

@@ -1,0 +1,16 @@
+import React from 'react'
+import './default.css';
+
+function About() {
+    return (
+        <div className="about-page">
+
+            <h3>Hello World! I'm Alexander, mostly known as Retr0A. I like to make games in Unity and other game engines like Unreal Engine.</h3>
+            <h3>I'm currently working on my own survival game called "Hero Jumper".</h3>
+
+            <h5 className="copyright-text">©Retr0A. All rights reserved.</h5>
+        </div>
+    )
+}
+
+export default About
