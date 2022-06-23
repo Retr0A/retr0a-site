@@ -17,12 +17,20 @@ h2 {
     width: 30px;
 }
 
-.home-page, .about-page, .contact-page, .products-page {
+.home-page {
     position: fixed;
     top: 80px;
     left: 0px;
     right: 0px;
     bottom: 0px;
+}
+
+.about-page, .contact-page, .products-page {
+    position: fixed;
+    top: 90px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
 }
 
 .home-page {
@@ -56,4 +64,11 @@ h2 {
 .copyright-text {
     position: inherit;
     bottom: 0;
+}
+
+.home-page-main-text {
+
+    margin-bottom: 10px;
+
+    transition: ease-in 0.5s;
 }
