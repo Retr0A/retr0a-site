@@ -7,7 +7,7 @@ function Card({ cardImage, cardTitle, cardText, cardLink, height }) {
         <img src={cardImage} alt="card-image"></img>
         <h2>{cardTitle}</h2>
         <h4>{cardText}</h4>
-        <a href={cardLink}><button>See More</button></a>
+        <a href={cardLink}><button className="success">See More</button></a>
     </div>
   )
 }

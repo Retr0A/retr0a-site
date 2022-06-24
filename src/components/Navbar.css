@@ -1,17 +1,21 @@
 .navbar {
-    background: black;
+    background-color: #fff;
+    border-color: #e6e6e6;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid #e6e6e6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .navbar-logo {
-    color: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
     justify-self: start;
-    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -21,10 +25,20 @@
     transform: translate(25%, 50%);
 }
 
+.navbar-logo:hover {
+    color: black;
+    cursor: default;
+}
+
 .navbar-logo img {
-    width: 25px;
-    
-    justify-content: center;
+    width: 35px;
+
+    box-shadow: 0px 0px 10px #000;
+
+    border-radius: 50%;
+
+    margin-right: 10px;
+    margin-bottom: 13px;
 }
 
 .fa-firstdraft {
@@ -54,12 +68,6 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-}
-
-.nav-links:hover {
-    background-color: rgb(74, 74, 74);
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
 }
 
 .fa-bars {
@@ -158,4 +166,55 @@
     button {
         display: none;
     }
+}
+
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.navbar button:active {
+    background-color: #ccc;
+    color: #000;
+}
+.navbar button:focus {
+    outline: none;
+}
+.navbar button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.navbar button:active {
+    background-color: #ccc;
+    color: #000;
+}
+.navbar button:focus {
+    outline: none;
+}
+.navbar button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.navbar button:active {
+    background-color: #ccc;
+    color: #000;
+}
+.navbar button:focus {
+    outline: none;
 }
