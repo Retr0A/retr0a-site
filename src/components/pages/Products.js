@@ -16,7 +16,7 @@ function Products() {
                 />
             </div>
             
-            <h5 className="copyright-text">©Retr0A. All rights reserved.</h5>
+            <h5 className="copyright-text">Copyright &copy; Retr0A 2022. All rights reserved.</h5>
         </div>
     )
 }
