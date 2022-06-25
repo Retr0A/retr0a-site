@@ -13,10 +13,11 @@ function Products() {
                     cardImage={HeroJumperLogo}
                     cardTitle="Hero Jumper"
                     cardText="Hero Jumper is my survival game made in Unity. I have devlogs on my YouTube channel."
+                    cardLink="/products/herojumper"
                 />
             </div>
             
-            <h5 className="copyright-text">Copyright &copy; Retr0A 2022. All rights reserved.</h5>
+            <h5 className="copyright-text w3-container w3-animate-bottom">Copyright &copy; Retr0A 2022. All rights reserved.</h5>
         </div>
     )
 }

@@ -1,0 +1,31 @@
+.product-icon {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+}
+
+.top-content {
+    display: flex;
+}
+
+.top-content h2 {
+    text-align: left;
+    color: black;
+    margin-left: 20px;
+}
+
+.top-content div {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content div button {
+    width: 120px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 30px;
+    color: black;
+}

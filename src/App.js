@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Products from './components/pages/Products';
+import HeroJumper from './components/pages/products/HeroJumper';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' exact component={About} />
           <Route path='/contact' exact component={Contact} />
           <Route path='/products' exact component={Products} />
+          <Route path='/products/herojumper' exact component={HeroJumper} />
         </Switch>
         </div>
       </Router>

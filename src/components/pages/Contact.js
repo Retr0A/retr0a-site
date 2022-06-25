@@ -6,7 +6,7 @@ function Contact() {
         <div className="contact-page">
             <a className="w3-container w3-animate-bottom" href="https://www.youtube.com/channel/UCI4_7YuHdWIxxtUKG1uyb3A"><h3>YouTube - Retr0A<img src="https://icons-for-free.com/download-icon-tube+video+you+youtube+icon-1320185153402885670_512.png"></img></h3></a>
 
-            <h5 className="copyright-text">Copyright &copy; Retr0A 2022. All rights reserved.</h5>
+            <h5 className="copyright-text w3-container w3-animate-bottom">Copyright &copy; Retr0A 2022. All rights reserved.</h5>
         </div>
     )
 }
