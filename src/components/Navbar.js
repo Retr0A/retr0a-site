@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap'
 import './Navbar.css';
 
 function Navbar() {
@@ -21,30 +22,30 @@ function Navbar() {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
                         <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                            <button className="navbar-button">
+                            <Button variant="outline-info" className="navbar-button">
                             Home
-                            </button>
+                            </Button>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                            <button className="navbar-button">
+                            <Button variant="outline-info" className="navbar-button">
                             About
-                            </button>
+                            </Button>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-                            <button className="navbar-button">
+                            <Button  variant="outline-info" className="navbar-button">
                             Contact
-                            </button>
+                            </Button>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                            <button className="navbar-button">
+                            <Button variant="outline-info" className="navbar-button">
                             Products
-                            </button>
+                            </Button>
                         </Link>
                     </li>
                 </ul>

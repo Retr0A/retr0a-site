@@ -1,6 +1,8 @@
 import '../default.css';
 import './Product.css';
 
+import { Button } from 'react-bootstrap';
+
 import Logo from '../img/herojumper-logo.png'
 
 function HeroJumper() {
@@ -12,7 +14,7 @@ function HeroJumper() {
                 
                 <div>
                     <h2>Hero Jumper</h2>
-                    <button className="primary">Go to store page</button>
+                    <Button variant="success">Go to store page</Button>
                 </div>
             </div>
 

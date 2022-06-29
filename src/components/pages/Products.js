@@ -6,7 +6,7 @@ import HeroJumperLogo from './img/herojumper-logo.png';
 function Products() {
     return (
         <div className="products-page">
-            <h3 className="w3-container w3-animate-bottom">Here are all the games/apps made by me. Of course, I used some help from other people.</h3>
+            <h3 className="w3-container w3-animate-bottom">Here are all the games/apps made by me.</h3>
 
             <div className="products-cards w3-container w3-animate-bottom">
                 <Card

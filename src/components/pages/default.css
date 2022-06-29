@@ -74,6 +74,10 @@ h2 {
     transition: ease-in 0.5s;
 }
 
+.home-page .copyright-text {
+    color: white;
+}
+
 a {
     color: white;
     text-decoration: none;
